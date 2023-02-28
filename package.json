@@ -1,0 +1,19 @@
+{
+  "name": "subjectify",
+  "version": "1.0.0",
+  "description": "Make all method calls return their call subject.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oelin/subjectify.git"
+  },
+  "author": "oelin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oelin/subjectify/issues"
+  },
+  "homepage": "https://github.com/oelin/subjectify#readme"
+}
