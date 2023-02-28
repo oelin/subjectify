@@ -6,5 +6,7 @@ export default subject => new Proxy(subject, {
                                 return this
                         }
                 }
+                
+                return subject[key]
         }
 })
