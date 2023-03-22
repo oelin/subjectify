@@ -3,6 +3,13 @@
 Make all method calls return their call subject.
 
 
+## Installation
+
+```sh
+npm i subjectify
+```
+
+
 ## Usage
 
 Original code:
@@ -26,13 +33,4 @@ const element = subjectify(document.createElement('div'))
         .setAttribute('class', 'foo')
         .setAttribute('id', 'bar')
         .append('hello world')
-```
-
-
-## Installation
-
-Install with NPM:
-
-```sh
-npm i subjectify
 ```
